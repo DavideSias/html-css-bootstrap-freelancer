@@ -1,0 +1,13 @@
+.bg_color_dark{
+    background-color: rgb(44, 62, 80);
+}
+
+/* debug */
+.min-height{
+    min-height: 100px;
+    background-color: black;
+} 
+
+.bg_color_green{
+    background-color: rgb(26, 188, 156);
+}
