@@ -10,6 +10,10 @@
     background-color: rgb(58, 84, 109);
 }
 
+.nav-top{
+    height: 4rem;
+}
+
 .font_size_10{
     font-size: 10px;
 }
@@ -21,4 +25,9 @@
 
 .height{
     height: 3px;
+}
+
+.btn_send{
+    border-color: rgb(26, 188, 156);
+    background-color: rgb(26, 188, 156);
 }
