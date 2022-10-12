@@ -41,6 +41,53 @@
    border-radius: 50%;
 }
 
+.card{
+    position: relative;
+    cursor: pointer;
+}
+
+.green_screen{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(26, 188, 156, 0.5);
+    display: none;
+}
+
+.icon-plus{
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    display: none;
+}
+
+
+/* hover effects */
 .hover_green:hover{
     color: rgb(26, 188, 156);
+}
+
+.card:hover .icon-plus{
+    display: inline-block;   
+}
+
+.card:hover .green_screen{
+    display: inline-block;   
+}
+
+/* media query */
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    .subtitle{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 50px;
+    }
 }
